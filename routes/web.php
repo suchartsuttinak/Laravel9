@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/about', function(){
+//  return "Helloo About Page";
+// });
+
 Route::get('/',[SiteController::class,'index'])->name('welcome');
 
 Route::get('/about',[SiteController::class,'about'])->name('ab');
-
 

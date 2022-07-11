@@ -8,10 +8,10 @@
 </head>
 <body>
     <h1>About Page</h1>
-   <h1>{{ $company }}</h1>
+   <h1>{{ $compa }}</h1>
     <a href="{{route('welcome')}}">หน้าหลัก</a>
     <ul>
-        @foreach ($user as $user )
+        @foreach ($users as $user )
         <li>{{ $user }}</li>
 
         @endforeach

@@ -15,8 +15,8 @@ class SiteController extends Controller
         $company = 'CCT';
         $user =['jorn','marry','bob'];
         return view('about', [
-            'company' => $company,
-            'user' => $user
+            'compa' => $company,
+            'users' => $user
         ]);
 
     }
